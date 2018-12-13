@@ -1,0 +1,79 @@
+/*
+ * Light and Shite
+ * The MIT License (MIT)
+ * Copyright (c) 2018 Alex Johnstone
+ */
+
+/* Formatting */
+
+body{
+    font: 1.2em/1.62em sans-serif;
+    margin: 1em auto;
+    max-width: 48em;
+    padding: 0.62em;
+    line-height: 1.5;
+}
+
+
+h1,h2,h3 { line-height:1.2em; }
+
+/* use div id="content" */
+
+.inlinecontent { text-align: justify; }
+
+/* Hyperlink colors */
+
+a { text-decoration: none; }
+
+a:link    { color: #009966; }
+a:visited { color: #009966; }
+a:hover   { color: #000000; }
+a:active  { color: #009966; }
+
+
+/* Code Blocks */
+
+code,
+pre {
+  background: #eee;
+  max-width: 100%;
+}
+
+code {
+  padding: 2px 2px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #009966;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+/* Footer */
+/* Use div id="footer" */
+
+#footer {
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+/* Make it responsive */
+
+@media print{ body{ max-width:none } }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.header {
+	font-weight: normal;
+	font-size: 200%;
+}
